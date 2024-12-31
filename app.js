@@ -10,7 +10,7 @@ window.addEventListener("load", () => {
         hours = ts.hours.toString().padStart(2, "0");
         minutes = ts.minutes.toString().padStart(2, "0");;
         seconds = ts.seconds.toString().padStart(2, "0");;
-        countdownContainer.innerHTML = `${hours}:${minutes}:${seconds}`;
+        countdownContainer.innerHTML = `<span>${hours}</span>:<span>${minutes}</span>:<span>${seconds}</span>`;
     }
 
     // Actualiza el countdown cada segundo
