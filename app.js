@@ -1,6 +1,6 @@
 window.addEventListener("load", () => {
     const countdownContainer = document.querySelector("#countdown");
-    const targetDate = new Date(1735700400000);
+    const targetDate = new Date(1767236400000);
     let hours;
     let minutes;
     let seconds;
